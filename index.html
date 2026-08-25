@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Rupeerun Training Institute</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f6f9ff;
+    color:#172033;
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:40px 20px;
+    background:
+    radial-gradient(circle at top right, rgba(72,135,239,.18), transparent 35%),
+    linear-gradient(135deg,#ffffff,#eef5ff);
+}
+
+.container{
+    width:100%;
+    max-width:1100px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:45px;
+    align-items:center;
+}
+
+/* LEFT */
+.badge{
+    display:inline-block;
+    background:#e9f1ff;
+    color:#2465c7;
+    padding:9px 16px;
+    border-radius:30px;
+    font-size:14px;
+    font-weight:700;
+    margin-bottom:18px;
+}
+
+h1{
+    font-size:48px;
+    line-height:1.12;
+    margin-bottom:18px;
+    color:#111827;
+}
+
+h1 span{
+    color:#2465c7;
+}
+
+.subtitle{
+    font-size:18px;
+    line-height:1.6;
+    color:#5b6475;
+    margin-bottom:28px;
+}
+
+.cta{
+    display:inline-block;
+    text-decoration:none;
+    background:linear-gradient(135deg,#2465c7,#4887ef);
+    color:#fff;
+    padding:17px 30px;
+    border-radius:10px;
+    font-size:17px;
+    font-weight:700;
+    box-shadow:0 10px 25px rgba(36,101,199,.25);
+    transition:.3s;
+}
+
+.cta:hover{
+    transform:translateY(-3px);
+    box-shadow:0 14px 30px rgba(36,101,199,.35);
+}
+
+.small-text{
+    margin-top:14px;
+    font-size:12px;
+    color:#7a8495;
+}
+
+/* RIGHT CARD */
+.card{
+    background:#fff;
+    border-radius:22px;
+    padding:30px;
+    box-shadow:0 15px 45px rgba(20,60,120,.12);
+    border:1px solid #e5ecf7;
+}
+
+.card-title{
+    font-size:24px;
+    font-weight:800;
+    margin-bottom:22px;
+}
+
+.point{
+    display:flex;
+    align-items:center;
+    gap:13px;
+    padding:14px 0;
+    border-bottom:1px solid #edf0f5;
+}
+
+.point:last-child{
+    border-bottom:none;
+}
+
+.icon{
+    width:42px;
+    height:42px;
+    min-width:42px;
+    border-radius:10px;
+    background:#edf4ff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:20px;
+}
+
+.point-text{
+    font-size:15px;
+    font-weight:600;
+    color:#303949;
+}
+
+/* COMMUNITY BOX */
+.community{
+    margin-top:22px;
+    padding:18px;
+    background:#f2f7ff;
+    border-radius:14px;
+    text-align:center;
+}
+
+.community strong{
+    display:block;
+    font-size:17px;
+    margin-bottom:5px;
+}
+
+.community span{
+    font-size:13px;
+    color:#697386;
+}
+
+/* MOBILE */
+@media(max-width:800px){
+
+    .hero{
+        padding:30px 16px;
+    }
+
+    .container{
+        grid-template-columns:1fr;
+        gap:30px;
+    }
+
+    h1{
+        font-size:36px;
+    }
+
+    .subtitle{
+        font-size:16px;
+    }
+
+    .card{
+        padding:22px;
+    }
+
+    .card-title{
+        font-size:21px;
+    }
+
+    .cta{
+        width:100%;
+        text-align:center;
+    }
+}
+
+@media(max-width:400px){
+
+    h1{
+        font-size:31px;
+    }
+
+    .point{
+        padding:12px 0;
+    }
+
+    .point-text{
+        font-size:14px;
+    }
+}
+
+.badge {
+	display: flex;
+	align-items: center;
+}
+
+img {
+	width: 40px;
+	border-radius: 50px;
+	margin-right: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+    <div class="container">
+
+        <!-- LEFT CONTENT -->
+        <div>
+
+            <div class="badge">
+             
+             <img src="logo.jpg" alt=""> Rupeerun Training Institute
+            </div>
+
+            <h1>
+                Join Our <span>st@ck Market</span> Learning Community
+            </h1>
+
+            <p class="subtitle">
+                Get market insights, educational content, practical learning
+                tips and regular market discussions — all in one community.
+            </p>
+
+            <a href="https://chat.whatsapp.com/BNcrJWruD5I9SEbX109jCB?s=sw&p=a&mlu=4"
+               class="cta"
+               target="_blank">
+                🚀 JOIN COMMUNITY NOW
+            </a>
+
+            <p class="small-text">
+                Educational content only. No guaranteed returns or profit claims.
+            </p>
+
+        </div>
+
+
+        <!-- RIGHT CONTENT -->
+        <div class="card">
+
+            <div class="card-title">
+                Why Join Our Community?
+            </div>
+
+            <div class="point">
+                <div class="icon">📊</div>
+                <div class="point-text">
+                    Daily Market Analysis & Key Updates
+                </div>
+            </div>
+
+            <div class="point">
+                <div class="icon">📈</div>
+                <div class="point-text">
+                    NIFTY & BANKNIFTY Learning Insights
+                </div>
+            </div>
+
+            <div class="point">
+                <div class="icon">🎯</div>
+                <div class="point-text">
+                    Important Market Levels & Setups
+                </div>
+            </div>
+
+            <div class="point">
+                <div class="icon">🧠</div>
+                <div class="point-text">
+                    Practical Chart Analysis Learning
+                </div>
+            </div>
+
+            <div class="point">
+                <div class="icon">📚</div>
+                <div class="point-text">
+                    Free st@ck Market Learning Content
+                </div>
+            </div>
+
+            <div class="point">
+                <div class="icon">🔔</div>
+                <div class="point-text">
+                    Regular Market Discussions & Updates
+                </div>
+            </div>
+
+            <div class="point">
+                <div class="icon">🤝</div>
+                <div class="point-text">
+                    Growing Market Learners Community
+                </div>
+            </div>
+
+            <div class="community">
+                <strong>🚀 Learn • Practice • Improve</strong>
+                <span>
+                    Join the community and start learning today
+                </span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+</body>
+</html>
